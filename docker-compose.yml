@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+
+  app:
+    build:
+      context: ./docker/app
+      dockerfile: Dockerfile
+    volumes:
+      - ./app:/var/www/html
+    ports:
+      - 80:80
+    networks:
+      - web
+
+volumes:
+  db_volume:
+
+networks:
+  web:
+    external: false
