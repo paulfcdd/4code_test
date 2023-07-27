@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Test;
 
-use App\Controller\InternetResourceProxy;
+use App\Service\InternetResourceProxy;
 use PHPUnit\Framework\TestCase;
 use phpmock\phpunit\PHPMock;
 

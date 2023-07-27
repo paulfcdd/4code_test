@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Test;
 
-use App\Controller\LineByLineFileReader;
+use App\Service\LineByLineFileReader;
 use PHPUnit\Framework\TestCase;
 
 final class LineByLineFileReaderTest extends TestCase {

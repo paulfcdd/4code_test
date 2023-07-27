@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Test;
 
-use App\Controller\LargeFileReadStrategy;
+use App\Service\LargeFileReadStrategy;
 use PHPUnit\Framework\TestCase;
 
 final class LargeFileReadStrategyTest extends TestCase {

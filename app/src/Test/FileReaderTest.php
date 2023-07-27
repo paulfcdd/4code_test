@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace App\Test;
 
-use App\Controller\FileReader;
-use App\Controller\LargeFileReadStrategy;
-use App\Controller\SmallFileReadStrategy;
+use App\Service\FileReader;
+use App\Service\LargeFileReadStrategy;
+use App\Service\SmallFileReadStrategy;
 use PHPUnit\Framework\TestCase;
 
 final class FileReaderTest extends TestCase

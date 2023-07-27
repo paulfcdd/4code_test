@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace App\Test;
 
-use App\Controller\LineByLineFileReader;
-use App\Controller\UnixNewlineDecorator;
+use App\Service\LineByLineFileReader;
+use App\Service\UnixNewlineDecorator;
 use PHPUnit\Framework\TestCase;
 
 final class UnixNewlineDecoratorTest extends TestCase {

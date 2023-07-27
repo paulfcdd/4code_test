@@ -2,10 +2,10 @@
 
 require_once('../vendor/autoload.php');
 
-use App\Controller\LineByLineFileReader;
-use App\Controller\UnixNewlineDecorator;
-use App\Controller\InternetResourceProxy;
-use App\Controller\FileReader;
+use App\Service\LineByLineFileReader;
+use App\Service\UnixNewlineDecorator;
+use App\Service\InternetResourceProxy;
+use App\Service\FileReader;
 
 $pathToLocalFile = __DIR__ . '/../bin/file.txt';
 $pathToLocalFileWhichIsNotExists = __DIR__ . '/../bin/dummy_file.txt';

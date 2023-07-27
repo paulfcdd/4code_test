@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Test;
 
-use App\Controller\SmallFileReadStrategy;
+use App\Service\SmallFileReadStrategy;
 use PHPUnit\Framework\TestCase;
 
 final class SmallFileReadStrategyTest extends TestCase
